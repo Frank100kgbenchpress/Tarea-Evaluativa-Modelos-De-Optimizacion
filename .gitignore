@@ -1,3 +1,45 @@
-/.venv
-/codigo.ipynb
-/codigo.py
+/optimizacion
+# IDEs / Editores
+#####################
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Dependencias y entornos
+#########################
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+build/
+dist/
+__pycache__/
+*.egg-info/
+.python-version
+pip-log.txt
+pip-delete-this-file.txt
+
+# Jupyter Notebooks
+###################
+# Ignora los checkpoints generados automáticamente
+.ipynb_checkpoints/
+# Ignora cualquier archivo temporal generado por notebooks
+*~
+
+# Archivos específicos de OS
+###########################
+.DS_Store
+Thumbs.db
+
+# Logs y bases de datos
+#######################
+*.log
+*.sqlite
+*.db
+
+# Directorios de salidas
+#######################
+/data/
+/results/
+/output/
